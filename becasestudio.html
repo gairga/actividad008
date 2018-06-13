@@ -4,10 +4,11 @@
 	<title></title>
 	<meta charset="utf-8">    
  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/theme.journal.min.css">
+  	<link rel="stylesheet" href="css/bootstrap-social.css">
 	<link rel="stylesheet" href="css/estilos.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
   <a class="navbar-brand" href="#"><img class="img-responsive logo" src="img/logo_pequeno_simple.png"><img class="img-responsive logo_letra" src="img/fnyc.png"></a>
@@ -167,52 +168,85 @@
 <!---->
 
 <!-- Footer -->
-<footer>
-  <div class="container espacio">
-          <div class="row">
-            <div class="col-md-4 modal-footer">
-              <div class="col-md-12">
-                <div class="col-md-8">                
-                  <p class="text-primary"><b>Ubicación</b></p>
-                </div>
-                <div class="col-md-8">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.509134447668!2d-70.5393396848024!3d-33.38387898079302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses-419!2scl!4v1528847222093" width="200" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-              </div>
-            </div>  
-            <div class="col-md-4 modal-footer">
-              <div class="col-md-12">
-                <div class="col-md-8">                
-                  <p class="text-primary"><b>Redes Sociales</b></p>
-                </div>
-                <div class="col-md-8">
-                <span class="fab fa-facebook"></span>
-                  <ul>
-                    <i class="fa fa-facebook">https://web.facebook.com/ninoycancer/</i>
-                    <i class="fa fa-instagram"></i>      
-                    <i class="fa fa-twitter"></i>        
-                    <i class="fa fa-youtube"></i>        
-                  </ul>
-                </div>  
-              </div> 
-            </div>
-            <div class="col-md-4 modal-footer">
-              <div class="col-md-12">
-                <div class="col-md-8">                
-                  <p class="text-primary"><b>Contacto</b></p>
-                </div>
-                <div class="col-md-8">
-                  <ul>
-                    <li>Teléfonos:</li>
-                      <i class="fa fa-facebook">vvv</i>
-                  </ul>
-                </div> 
-              </div>
-            </div>
-        </div>
-  </div>
-</footer>
+<footer class="page-footer font-small lighten-3 pt-4 mt-4">
 
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-4">
+
+        <!-- Content -->
+        <h5 class="font-weight-bold text-uppercase mb-4 text-primary">Ubicación</h5>
+        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.5093060796994!2d-70.53933968560635!3d-33.38387450148296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses-419!2scl!4v1528916314779" width="200" height="200" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-4">
+
+        <!-- Contact details -->
+        <h5 class="font-weight-bold text-uppercase mb-4 text-primary">Contactanos</h5>
+
+        <ul class="list-unstyled">
+          <li><p><i class="fa fa-home mr-3"></i>Tupungato 10070 Vitacura, Santiago de Chile</p></li>
+          <li><p><i class="fa fa-envelope mr-3"></i>fundacion@ninoycancer.cl</p></li>
+          <li><p><i class="fa fa-phone mr-3"></i>22170821 - 22170811</p></li>
+          <li><p><i class="fa fa-print mr-3"></i>22170820</p></li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-4">
+
+        <!-- Social buttons -->
+        <h5 class="font-weight-bold text-uppercase mb-4 text-primary">REDES SOCIALES</h5>
+
+        <!-- Instagram -->
+        <button type="button" class="btn btn-primary">
+                  <a href="https://www.instagram.com/fundacionninoycancer/" target="_blank"><i class="fab fa-instagram text-white"></i></<button>
+        </button>
+        <!-- Facebbook -->
+         <button type="button" class="btn btn-primary">
+                  <a href="https://web.facebook.com/ninoycancer/" target="_blank"><i class="fab fa-facebook text-white"></i></<button>
+        </button>
+        <!-- Google +-->
+         <button type="button" class="btn btn-primary">
+                  <a href="https://twitter.com/hashtag/fundacionni%C3%B1oycancer?src=hash" target="_blank"><i class="fab fa-twitter text-white"></i></<button>
+        </button>
+        
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href="#">Fundación Niño y Cáncer</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
 <!---->
 <!-- Fin: Noticas Relevantes -->
 <!--JS -->

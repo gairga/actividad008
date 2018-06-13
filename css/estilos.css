@@ -22,3 +22,8 @@
 .p-blog{
 	text-align:left;
 }
+.imgactividades{
+	height: 200px; 
+	width: 100%; 
+	display: block;
+}
